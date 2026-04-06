@@ -68,7 +68,7 @@ body{margin:0;font-family:'Montserrat',sans-serif;background:#111;color:#fff;ove
 <body>
 
 <div class="barra-topo" id="barra">
- <div class="logo"><img src="img/fantalogo.png"></div>
+ <div class="logo"><img src="fantalogo.png"></div>
  <div class="menu">
   <a onclick="trocar('laranja')">Home</a>
   <a href="#produtos">Categorias</a>
@@ -89,7 +89,7 @@ body{margin:0;font-family:'Montserrat',sans-serif;background:#111;color:#fff;ove
   <button class="botao-comprar" onclick="comprar()">Comprar agora</button>
  </div>
 
- <img id="img" src="img/fantalata.png" onclick="abrir()">
+ <img id="img" src="fantalata.png" onclick="abrir()">
 </div>
 
 <div class="produtos" id="produtos">
@@ -97,19 +97,19 @@ body{margin:0;font-family:'Montserrat',sans-serif;background:#111;color:#fff;ove
  <div class="cards">
 
   <div class="card" onclick="trocar('laranja')">
-   <img src="img/fantalata.png">
+   <img src="fantalata.png">
    <p>Fanta Laranja</p>
    <p class="preco">R$ 8,00</p>
   </div>
 
   <div class="card" onclick="trocar('uva')">
-   <img src="img/uvalata.png">
+   <img src="uvalata.png">
    <p>Fanta Uva</p>
    <p class="preco">R$ 8,00</p>
   </div>
 
   <div class="card" onclick="trocar('coca')">
-   <img src="img/cocalata.png">
+   <img src="cocalata.png">
    <p>Coca-Cola</p>
    <p class="preco">R$ 10,00</p>
   </div>
@@ -127,7 +127,7 @@ body{margin:0;font-family:'Montserrat',sans-serif;background:#111;color:#fff;ove
 
 <div class="overlay" id="overlay" onclick="fecharFora(event)">
  <div class="fechar" onclick="fechar()">✖</div>
- <img id="imgGrande" src="img/fantalata.png">
+ <img id="imgGrande" src="fantalata.png">
  <h1 id="tituloGrande">Fanta Laranja</h1>
  <p id="descGrande">Refrescante e cheia de sabor com o melhor sabor de laranja.</p>
  <div class="info" id="infoExtra">Bebida gaseificada • 350ml • Sabor Laranja</div>
@@ -152,9 +152,9 @@ function trocar(tipo){
   barra.style.background='orange'
   titulo.innerText='Fanta Laranja'
   desc.innerText='A Fanta Laranja é uma bebida refrescante e cheia de sabor.'
-  img.src='img/fantalata.png'
+  img.src='fantalata.png'
   bg.innerText='Laranja'
-  imgGrande.src='img/fantalata.png'
+  imgGrande.src='fantalata.png'
   tituloGrande.innerText='Fanta Laranja'
   descGrande.innerText='Refrigerante sabor laranja com gás.'
   info.innerText='Bebida gaseificada • 350ml • Laranja'
@@ -165,9 +165,9 @@ function trocar(tipo){
   barra.style.background='purple'
   titulo.innerText='Fanta Uva'
   desc.innerText='Sabor doce e marcante.'
-  img.src='img/uvalata.png'
+  img.src='uvalata.png'
   bg.innerText='Uva'
-  imgGrande.src='img/uvalata.png'
+  imgGrande.src='uvalata.png'
   tituloGrande.innerText='Fanta Uva'
   descGrande.innerText='Refrigerante sabor uva com gás.'
   info.innerText='Bebida gaseificada • 350ml • Uva'
@@ -178,9 +178,9 @@ function trocar(tipo){
   barra.style.background='red'
   titulo.innerText='Coca-Cola'
   desc.innerText='O refrigerante mais famoso do mundo.'
-  img.src='img/cocalata.png'
+  img.src='cocalata.png'
   bg.innerText='Coca'
-  imgGrande.src='img/cocalata.png'
+  imgGrande.src='cocalata.png'
   tituloGrande.innerText='Coca-Cola'
   descGrande.innerText='Sabor único e refrescante.'
   info.innerText='Bebida gaseificada • 350ml • Coca-Cola'
